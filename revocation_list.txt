@@ -1,0 +1,3 @@
+# Revocation list. Hash strings here identify tests which have been determined to be bad.
+# Hopefully this list stays empty!
+

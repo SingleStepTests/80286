@@ -1,0 +1,1849 @@
+{
+    "github": "https://github.com/singlesteptests/80286",
+    "version": "1.0.0",
+    "syntax_version": 2,
+    "cpu": "286",
+    "cpu_detail": "Harris N80C286-12 (L4252050) (C)1986",
+    "generator": "arduinoX86 v2.0",
+    "author": "Daniel Balsom",
+    "date": "2025/07/20",
+    "opcodes": {
+        "00": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "01": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "02": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "03": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "04": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "05": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "06": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "07": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "08": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "09": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "0A": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "0B": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "0C": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "0D": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "0E": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "0F": {
+            "status": "extension",
+            "arch": "286"
+        },
+        "10": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "11": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "12": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "13": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "14": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "15": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "16": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "17": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "18": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "19": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "1A": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "1B": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "1C": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "1D": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "1E": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "1F": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "20": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "21": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "22": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "23": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "24": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "25": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "26": {
+            "status": "prefix",
+            "arch": "86"
+        },
+        "27": {
+            "status": "normal",
+            "arch": "86",
+            "flags": "o.......",
+            "flags-mask": 63487
+        },
+        "28": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "29": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "2A": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "2B": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "2C": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "2D": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "2E": {
+            "status": "prefix",
+            "arch": "86"
+        },
+        "2F": {
+            "status": "normal",
+            "arch": "86",
+            "flags": "o.......",
+            "flags-mask": 63487
+        },
+        "30": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "31": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "32": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "33": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "34": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "35": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "36": {
+            "status": "prefix",
+            "arch": "86"
+        },
+        "37": {
+            "status": "normal",
+            "arch": "86",
+            "flags": "o..sz.p.",
+            "flags-mask": 63291
+        },
+        "38": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "39": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "3A": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "3B": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "3C": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "3D": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "3E": {
+            "status": "prefix",
+            "arch": "86"
+        },
+        "3F": {
+            "status": "normal",
+            "arch": "86",
+            "flags": "o..sz.p.",
+            "flags-mask": 63291
+        },
+        "40": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "41": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "42": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "43": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "44": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "45": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "46": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "47": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "48": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "49": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "4A": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "4B": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "4C": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "4D": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "4E": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "4F": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "50": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "51": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "52": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "53": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "54": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "55": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "56": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "57": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "58": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "59": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "5A": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "5B": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "5C": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "5D": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "5E": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "5F": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "60": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "61": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "62": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "63": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "64": {
+            "status": "undefined",
+            "arch": "286"
+        },
+        "65": {
+            "status": "undefined",
+            "arch": "286"
+        },
+        "66": {
+            "status": "undefined",
+            "arch": "286"
+        },
+        "67": {
+            "status": "undefined",
+            "arch": "286"
+        },
+        "68": {
+            "status": "normal",
+            "arch": "186"
+        },
+        "69": {
+            "status": "normal",
+            "arch": "186",
+            "flags": "...szap.",
+            "flags-mask": 65323
+        },
+        "6A": {
+            "status": "normal",
+            "arch": "186"
+        },
+        "6B": {
+            "status": "normal",
+            "arch": "186",
+            "flags": "...szap.",
+            "flags-mask": 65323
+        },
+        "6C": {
+            "status": "normal",
+            "arch": "186"
+        },
+        "6D": {
+            "status": "normal",
+            "arch": "186"
+        },
+        "6E": {
+            "status": "normal",
+            "arch": "186"
+        },
+        "6F": {
+            "status": "normal",
+            "arch": "186"
+        },
+        "70": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "71": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "72": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "73": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "74": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "75": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "76": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "77": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "78": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "79": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "7A": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "7B": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "7C": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "7D": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "7E": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "7F": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "80": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "6": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "7": {
+                    "status": "normal",
+                    "arch": "86"
+                }
+            }
+        },
+        "81": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "6": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "7": {
+                    "status": "normal"
+                }
+            }
+        },
+        "82": {
+            "reg": {
+                "0": {
+                    "status": "alias",
+                    "arch": "86"
+                },
+                "1": {
+                    "status": "alias",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "2": {
+                    "status": "alias",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "alias",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "alias",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "5": {
+                    "status": "alias",
+                    "arch": "86"
+                },
+                "6": {
+                    "status": "alias",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "7": {
+                    "status": "alias",
+                    "arch": "86"
+                }
+            }
+        },
+        "83": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "6": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "7": {
+                    "status": "normal",
+                    "arch": "86"
+                }
+            }
+        },
+        "84": {
+            "status": "normal",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "85": {
+            "status": "normal",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "86": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "87": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "88": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "89": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "8A": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "8B": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "8C": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "8D": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "8E": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "8F": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "1": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "2": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "5": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "6": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "7": {
+                    "status": "undefined",
+                    "arch": "86"
+                }
+            }
+        },
+        "90": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "91": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "92": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "93": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "94": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "95": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "96": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "97": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "98": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "99": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "9A": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "9B": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "9C": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "9D": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "9E": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "9F": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "A0": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "A1": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "A2": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "A3": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "A4": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "A5": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "A6": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "A7": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "A8": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "A9": {
+            "status": "normal",
+            "arch": "86",
+            "flags": ".....a..",
+            "flags-mask": 65519
+        },
+        "AA": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "AB": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "AC": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "AD": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "AE": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "AF": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "B0": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "B1": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "B2": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "B3": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "B4": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "B5": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "B6": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "B7": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "B8": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "B9": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "BA": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "BB": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "BC": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "BD": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "BE": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "BF": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "C0": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "186"
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "186"
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "186"
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "186"
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "186",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "186",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "6": {
+                    "status": "undocumented",
+                    "arch": "186",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "7": {
+                    "status": "normal",
+                    "arch": "186",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                }
+            }
+        },
+        "C1": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o.......",
+                    "flags-mask": 63487
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "186",
+                    "flags": "o.......",
+                    "flags-mask": 63487
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "186",
+                    "flags": "o.......",
+                    "flags-mask": 63487
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "186",
+                    "flags": "o.......",
+                    "flags-mask": 63487
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "186",
+                    "flags": "o....a..",
+                    "flags-mask": 63471
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "186",
+                    "flags": "o....a..",
+                    "flags-mask": 63471
+                },
+                "6": {
+                    "status": "undocumented",
+                    "arch": "186",
+                    "flags": "o....a..",
+                    "flags-mask": 63471
+                },
+                "7": {
+                    "status": "normal",
+                    "arch": "186",
+                    "flags": "o....a..",
+                    "flags-mask": 63471
+                }
+            }
+        },
+        "C2": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "C3": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "C4": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "C5": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "C6": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "1": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "2": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "5": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "6": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "7": {
+                    "status": "undefined",
+                    "arch": "86"
+                }
+            }
+        },
+        "C7": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "1": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "2": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "5": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "6": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "7": {
+                    "status": "undefined",
+                    "arch": "86"
+                }
+            }
+        },
+        "C8": {
+            "status": "normal",
+            "arch": "186"
+        },
+        "C9": {
+            "status": "normal",
+            "arch": "186"
+        },
+        "CA": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "CB": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "CC": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "CD": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "CE": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "CF": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "D0": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "6": {
+                    "status": "undocumented",
+                    "arch": "186",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "7": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                }
+            }
+        },
+        "D1": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "6": {
+                    "status": "undocumented",
+                    "arch": "186",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "7": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                }
+            }
+        },
+        "D2": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o.......",
+                    "flags-mask": 63487
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o.......",
+                    "flags-mask": 63487
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o.......",
+                    "flags-mask": 63487
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o.......",
+                    "flags-mask": 63487
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o....a.c",
+                    "flags-mask": 63470
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o....a.c",
+                    "flags-mask": 63470
+                },
+                "6": {
+                    "status": "undocumented",
+                    "arch": "186",
+                    "flags": "o....a.c",
+                    "flags-mask": 63470
+                },
+                "7": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o....a.c",
+                    "flags-mask": 63470
+                }
+            }
+        },
+        "D3": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o.......",
+                    "flags-mask": 63487
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o.......",
+                    "flags-mask": 63487
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o.......",
+                    "flags-mask": 63487
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o.......",
+                    "flags-mask": 63487
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o....a.c",
+                    "flags-mask": 63470
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o....a.c",
+                    "flags-mask": 63470
+                },
+                "6": {
+                    "status": "undocumented",
+                    "arch": "186",
+                    "flags": "o....a.c",
+                    "flags-mask": 63470
+                },
+                "7": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o....a.c",
+                    "flags-mask": 63470
+                }
+            }
+        },
+        "D4": {
+            "status": "normal",
+            "arch": "86",
+            "flags": "o....a.c",
+            "flags-mask": 63470
+        },
+        "D5": {
+            "status": "normal",
+            "arch": "86",
+            "flags": "o....a.c",
+            "flags-mask": 63470
+        },
+        "D6": {
+            "status": "undocumented",
+            "arch": "v30"
+        },
+        "D7": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "D8": {
+            "status": "fpu",
+            "arch": "86"
+        },
+        "D9": {
+            "status": "fpu",
+            "arch": "86"
+        },
+        "DA": {
+            "status": "fpu",
+            "arch": "86"
+        },
+        "DB": {
+            "status": "fpu",
+            "arch": "86"
+        },
+        "DC": {
+            "status": "fpu",
+            "arch": "86"
+        },
+        "DD": {
+            "status": "fpu",
+            "arch": "86"
+        },
+        "DE": {
+            "status": "fpu",
+            "arch": "86"
+        },
+        "DF": {
+            "status": "fpu",
+            "arch": "86"
+        },
+        "E0": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "E1": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "E2": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "E3": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "E4": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "E5": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "E6": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "E7": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "E8": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "E9": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "EA": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "EB": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "EC": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "ED": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "EE": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "EF": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "F0": {
+            "status": "prefix",
+            "arch": "86"
+        },
+        "F1": {
+            "status": "prefix",
+            "arch": "86"
+        },
+        "F2": {
+            "status": "prefix",
+            "arch": "86"
+        },
+        "F3": {
+            "status": "prefix",
+            "arch": "86"
+        },
+        "F4": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "F5": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "F6": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "1": {
+                    "status": "alias",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "...szap.",
+                    "flags-mask": 65323
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "...szap.",
+                    "flags-mask": 65323
+                },
+                "6": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o..szapc",
+                    "flags-mask": 63274
+                },
+                "7": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o..szapc",
+                    "flags-mask": 63274
+                }
+            }
+        },
+        "F7": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "1": {
+                    "status": "alias",
+                    "arch": "86",
+                    "flags": ".....a..",
+                    "flags-mask": 65519
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "...szap.",
+                    "flags-mask": 65323
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "...szap.",
+                    "flags-mask": 65323
+                },
+                "6": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o..szapc",
+                    "flags-mask": 63274
+                },
+                "7": {
+                    "status": "normal",
+                    "arch": "86",
+                    "flags": "o..szapc",
+                    "flags-mask": 63274
+                }
+            }
+        },
+        "F8": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "F9": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "FA": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "FB": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "FC": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "FD": {
+            "status": "normal",
+            "arch": "86"
+        },
+        "FE": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "2": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "5": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "6": {
+                    "status": "undefined",
+                    "arch": "86"
+                },
+                "7": {
+                    "status": "undefined",
+                    "arch": "86"
+                }
+            }
+        },
+        "FF": {
+            "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "6": {
+                    "status": "normal",
+                    "arch": "86"
+                },
+                "7": {
+                    "status": "alias",
+                    "arch": "86"
+                }
+            }
+        },
+        "0F00": {
+          "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "286"
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "286"
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "286"
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "286"
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "286"
+                },
+                "5": {
+                    "status": "normal",
+                    "arch": "286"
+                },
+                "6": {
+                    "status": "undefined",
+                    "arch": "286"
+                },
+                "7": {
+                    "status": "undefined",
+                    "arch": "286"
+                }
+            }
+        },
+        "0F01": {
+          "reg": {
+                "0": {
+                    "status": "normal",
+                    "arch": "286"
+                },
+                "1": {
+                    "status": "normal",
+                    "arch": "286"
+                },
+                "2": {
+                    "status": "normal",
+                    "arch": "286"
+                },
+                "3": {
+                    "status": "normal",
+                    "arch": "286"
+                },
+                "4": {
+                    "status": "normal",
+                    "arch": "286"
+                },
+                "5": {
+                    "status": "undefined",
+                    "arch": "286"
+                },
+                "6": {
+                    "status": "normal",
+                    "arch": "286"
+                },
+                "7": {
+                    "status": "undefined",
+                    "arch": "286"
+                }
+            }         
+        },
+        "0F02": {
+            "status": "normal",
+            "arch": "286"
+        },
+        "0F03": {
+            "status": "normal",
+            "arch": "286"
+        },
+        "0F04": {
+            "status": "normal",
+            "arch": "286"
+        },
+        "0F05": {
+            "status": "normal",
+            "arch": "286"
+        },
+        "0F06": {
+            "status": "normal",
+            "arch": "286"
+        }                
+    }
+}
