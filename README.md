@@ -99,11 +99,19 @@ your emulated CPU is essentially freezing at this point, requiring a reset.
 ## Using the Tests
 
 The general concept of a single step test is to set your emulator state to the initial state provided by each test:
- - Set the register values to the values provided in the initial `regs` state.
+ - Set the register values according the values provided in the initial `regs` state.
+ - Set the flags according to the mode being tested.
  - Write the bytes specified in the initial `ram` state to memory.
+   
+> [!NOTE]
+> The initial state represents the values provided to the `LOADALL` instruction. In real mode, the `IOPL` and
+> `NT` bits in the flags register cannot be set, however, they may be set in the initial state as it is a random value.
+> The simplest way to handle this is to mask off the top four flag bits when executing the real mode tests. Ideally,
+> your flag-setting function will take into account the current CPU mode and will protect these flags in real mode, as
+> you will see the same behavior in the tests for `POPF` and `IRET`.
 
 Then, begin execution at CS:IP as if you have jumped there.
- - End execution at the `HALT` instruction.
+ - End execution after the `HALT` instruction.
  - Compare your emulator's register state to the final `regs` state. 
  - Confirm the values in memory match the final `ram` state.
  - Optionally, confirm your emulator executed the same cycles and/or bus operations as specified in the `cycles` array.
@@ -164,6 +172,12 @@ to the stack.
 
 The value of IP is not forced to any specific values, and is not allowed to exceed `0xFFF8` to allow the 286 to fill its 
 prefetch queue after a jump.
+
+> [!NOTE]  
+> The value of IP will be the value **after** the terminating `HALT`. If you're wondering why IP is 1 off in all the
+> tests, that's why.
+
+
 
 ## Interrupt Vector Table Considerations
 
@@ -427,7 +441,24 @@ design, meaning that it can be clocked very slowly (or not at all) without losin
 CMOS 80C286 was the ideal choice for generating these tests. It just happens that Harris 80C286 CPUs are the most widely
 available model. A later model was selected to hopefully be free of the [numerous errata](https://www.pcjs.org/documents/manuals/intel/80286/b2_b3_info/) present in earlier 286 chips.
 
-### Why Are Instructions Longer Than Expected?
+### Why are some instructions clearing flags they shouldn't?
+
+In real mode, the `IOPL` and `NT` flags cannot be set. Although they may be specified in the initial state, you should not 
+actually set them. So they're not being cleared - they were never actually set in the first place.
+
+It may make more sense to consider the initial state as the state provided to the `LOADALL` instruction, rather than the 
+absolute state of the CPU (because thats what they literally are). 
+In retrospect, it would have been more clear to mask these flags out of the initial state, but its not worth re-uploading
+the entire set.
+
+When executing the real mode test suite, just mask off the top four flags before setting them.  Ideally, you would set 
+flags through a function that takes into account the current CPU mode and will protect flags as a real 286 would.
+
+### Why is IP always +1 of expected?
+
+Don't forget the HALT opcode.
+
+### Why do instructions take more cycles than expected?
 
 The 286 fills its instruction prefetch queue of 6 bytes after a jump. Thus every instruction execution will begin with
 several code fetch bus cycles before any opcode is executed. The lack of queue status pins on the 286 prevents the
